@@ -1,0 +1,40 @@
+
+
+
+
+.card{
+    background-color: blueviolet;
+    width: 250px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    border: 8px solid blueviolet;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+
+}
+
+.card-body input{
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+input::selection{
+    background: none;
+}
+.card-body button{
+    background: rgb(82, 3, 156);
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.card-body button:active{
+    background: brown;
+}
